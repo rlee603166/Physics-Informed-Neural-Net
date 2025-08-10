@@ -1,0 +1,11 @@
+filename,has_trajx,has_trajy,trajx_nested_length,trajy_nested_length,n_issues,issues,min_trial_length,max_trial_length,avg_trial_length,n_trials
+C0756Pre00Romberg.mat,True,True,3,3,0,,6053,6172,6124.0,3
+C0435Pre00Romberg.mat,True,True,3,3,0,,6501,6551,6517.666666666667,3
+C0198Pre00Romberg.mat,True,True,3,3,0,,6196,6210,6202.333333333333,3
+C0019Pre00romberg.mat,True,True,3,3,0,,6179,6553,6349.333333333333,3
+C0252Pre00Romberg.mat,True,True,3,3,0,,6343,6377,6360.333333333333,3
+C0425Pre00Romberg.mat,True,True,3,3,0,,6088,6364,6220.0,3
+C0235Pre00Romberg.mat,True,True,3,3,0,,6331,6677,6527.333333333333,3
+C0301Pre00Romberg.mat,True,True,3,3,0,,6418,6486,6448.666666666667,3
+C0008Pre00romberg.mat,True,True,3,3,0,,6079,6211,6162.0,3
+C0545Pre00Romberg.mat,True,True,3,3,0,,6539,6579,6562.0,3
