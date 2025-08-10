@@ -1,0 +1,67 @@
+================================================================================
+BALANCE PINN MODEL PERFORMANCE REPORT
+================================================================================
+Generated: 2025-08-10 07:10:20
+
+DATASET INFORMATION
+------------------------------
+Total data points: 4,183,626
+Sampling rate: 106.0 Hz
+Age range: 12.0 - 87.0 years
+Age mean ± std: 56.6 ± 18.0 years
+
+MODEL INFORMATION
+------------------------------
+Model: best_balance_pinn
+  Path: trained_models/best_balance_pinn.pth
+  Parameters: 466,821
+  Device: cuda
+
+DATA RECONSTRUCTION PERFORMANCE
+----------------------------------------
+Model: best_balance_pinn
+  MSE: 4095.127686
+  MAE: 46.501461
+  RMSE: 63.993183
+  R² Score: -0.0017
+  MSE X: 1512.662964
+  MSE Y: 6677.592285
+  MAE X: 28.708452
+  MAE Y: 64.294472
+
+PHYSICS COMPLIANCE
+-------------------------
+Model: best_balance_pinn
+  RMS Residual X: 0.004437
+  RMS Residual Y: 0.013434
+  RMS Residual Total: 0.010004
+
+LEARNED PARAMETERS ANALYSIS
+-----------------------------------
+Model: best_balance_pinn
+  Stiffness K (N·m/rad):
+    Mean: 686.7
+    Std: 0.0
+    Range: 686.7 - 686.7
+    Variation Coeff: 0.0000
+  Damping B (N·m·s/rad):
+    Mean: 55.9
+    Std: 0.0
+    Range: 55.8 - 56.0
+    Variation Coeff: 0.0008
+  Neural Delay τ (s):
+    Mean: 0.150
+    Std: 0.000
+    Range: 0.150 - 0.150
+    Variation Coeff: 0.0000
+
+RECOMMENDATIONS
+--------------------
+Best performing model (lowest MSE): best_balance_pinn
+
+Analysis for best_balance_pinn:
+  ⚠ Poor data reconstruction (R² = -0.002)
+  ⚠ Physics compliance issues (residual = 0.010004)
+  ⚠ Stiffness may not be learning age dependence
+  ⚠ Neural delay may not be learning age dependence
+
